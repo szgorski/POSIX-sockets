@@ -1,7 +1,3 @@
-# OS-classes
-This is a single-threaded program created for Operating Systems classes at my university. The solution is written in C language.
-
-*From the 'task requirements' description:* <br />
 The program is responsible for forwarding incoming UDP datagrams. The program is configured via administrative TCP protocol. The program takes one positional argument: TCP port the program will listen on for incoming administrative connections.
 
 The main process creates a TCP socket bound to localhost address port passed as an argument. Therefore, it won’t accept connections from different hosts. At most 3 connections are allowed – if 4th client would like to establish connection the server should reply with an informative message and drop the connection.
